@@ -12,3 +12,8 @@ build/
 # Logs
 npm-debug.log*
 yarn-debug.log*
+
+# Ignore compiled files if they are generated inside src
+src/**/*.js
+src/**/*.d.ts
+src/**/*.js.map

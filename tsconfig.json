@@ -6,7 +6,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     
-    // 🛑 The Fix: Turn off declaration mapping and enforce no file emission
     "declaration": false,
     "declarationMap": false,
     "sourceMap": false,

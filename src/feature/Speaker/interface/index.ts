@@ -9,4 +9,5 @@ export interface ISpeaker {
   isPublished?: boolean;
   createdAt?: Date;
   updatedAt?: Date;
+  year: number;
 }

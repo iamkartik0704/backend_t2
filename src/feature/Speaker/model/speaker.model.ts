@@ -21,6 +21,10 @@ const SpeakerSchema = new Schema<ISpeaker>(
       type: String,
       required: true,
     },
+    year: { 
+      type: Number, 
+      required: true 
+    },
     isPublished: {
       type: Boolean,
       default: false,
